@@ -1,0 +1,9 @@
+call npm install -g npm
+call npm install -g npm-check-updates
+call npm install -g node-gyp
+call npm install -g typescript
+call npm install -g nps
+call npm install -g rimraf
+call npm install -g tslint
+call npm install -g ts-node
+call npm install -g jest

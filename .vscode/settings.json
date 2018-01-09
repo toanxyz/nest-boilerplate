@@ -1,0 +1,9 @@
+{
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "files.exclude": {
+        "tsconfig.build.json": true
+    },
+    "editor.renderIndentGuides": true,
+    "editor.renderWhitespace": "all",
+    "html.format.unformatted": "query"
+}
