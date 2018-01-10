@@ -8,7 +8,7 @@ import { TestRepository } from './api/repositories/index';
 
 import { LogService } from './core/index';
 import { HttpRequestLoggerMiddleware } from './api/middlewares/index';
-import { AnyExceptionFilter, ValidationExceptionFilter } from './api/filters/index';
+import { AnyExceptionFilter } from './api/filters/index';
 import { ValidationPipe } from './api/pipes/index';
 
 @Module({
@@ -23,7 +23,6 @@ import { ValidationPipe } from './api/pipes/index';
 
         // Filters
         AnyExceptionFilter,
-        ValidationExceptionFilter,
 
         // Pipes
         ValidationPipe,
